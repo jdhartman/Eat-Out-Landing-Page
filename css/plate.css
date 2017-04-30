@@ -1,0 +1,78 @@
+html, body {
+	font-family: Avenir Next;
+	background-color: rgba(35, 36, 35, 1.0);
+	margin: 0; 
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	.container {
+		position: absolute;
+		height: auto;
+		right: 0%;
+		width: 100%;
+	}
+
+
+	.plate {
+		top: -100px;
+		left: -35%;
+		position: fixed;
+		text-align: left;
+	  	width: 80%;
+	  	min-height: 50%;
+	}
+	.plate img {
+		width: 100%;
+	}
+
+	.ios {
+		margin-top: 5%;
+		position: fixed;
+		text-align: left;
+		width: 70%;
+		height: 70%;	
+	}
+	.ios img {
+		width: 35%;	
+	}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	.container {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+
+	.plate {
+		position: absolute;
+		margin-top: 75%;
+	  	width: 100%;
+	  	min-height: 50%;
+	}
+	.plate img {
+		width: 90%;
+	}
+
+	.ios {
+		position: absolute;
+		margin-top: 75%;
+		width: 100%;
+	  	min-height: 50%;	
+	}
+	.ios img {
+		width: 52%;	
+	}	
+
+}
+
+
