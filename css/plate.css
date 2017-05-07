@@ -23,8 +23,6 @@ html, body {
 		right: 0%;
 		width: 100%;
 	}
-
-
 	.plate {
 		top: -100px;
 		left: -35%;
@@ -61,7 +59,7 @@ html, body {
 
 	.plate {
 		position: absolute;
-		margin-top: 75%;
+		margin-top: 135%;
 	  	width: 100%;
 	  	min-height: 50%;
 	}
@@ -71,12 +69,12 @@ html, body {
 
 	.ios {
 		position: absolute;
-		margin-top: 75%;
+		margin-top: 135%;
 		width: 100%;
 	  	min-height: 50%;	
 	}
 	.ios img {
-		width: 52%;	
+		width: 52%;
 	}	
 
 }

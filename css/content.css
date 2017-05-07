@@ -3,6 +3,7 @@
   and (-webkit-min-device-pixel-ratio: 1) { 
 	.content {
 		text-align: right;
+		height: 550px;
 	}
 
 	.logo {
@@ -16,13 +17,23 @@
 		max-width: 35%;
 	}
 
-	.info {
-		position: relative;
+	.info, .motto {
+		color: white;
 		width: 35%;
 		margin-left: 57%;
 		text-align: center;
-		font-size: 6vh;
-		color: white;
+	}
+
+	.motto {
+		font-size: 4vw;
+		animation: motto-slide 1.75s;
+    	-webkit-animation: motto-slide 1.75s;	
+	}
+
+	.info {
+		font-size: 2vw;
+		animation: info-fade 3s;
+		-webkit-animation: info-fade 3s;
 	}
 }
 
@@ -45,12 +56,64 @@
 		max-width: 75%;
 	}
 
-	.info {
-		margin-top: 45%;
+	.info, .motto {
 		position: absolute;
 		width: 100%;
 		text-align: center;
-		font-size: 6vh;
 		color: white;
+	}
+
+	.motto {
+		margin-top: 45%;
+		font-size: 8vw;
+		animation: motto-slide 1.75s;
+    	-webkit-animation: motto-slide 1.75s;	
 	} 	
+
+	.info {
+		margin-top: 65%;
+		font-size: 6vw;
+		animation: info-fade 3s;
+		-webkit-animation: info-fade 3s;
+	}
+}
+
+@keyframes motto-slide {
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+  0% {
+    transform: translateY(70%);
+  }
+  65% {
+    transform: translateY(-5%);
+  }
+  100% {
+  	transform: translateY(0);
+  }
+}
+@-webkit-keyframes motto-slide {
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+  0% {
+    transform: translateY(70%);
+  }
+  65% {
+    transform: translateY(-5%);
+  }
+  100% {
+  	transform: translateY(0);
+  }
+}
+
+@keyframes info-fade {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes info-fade {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
 }
