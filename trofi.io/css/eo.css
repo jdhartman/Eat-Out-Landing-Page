@@ -1,0 +1,74 @@
+@font-face
+{
+font-family: AvenirNext;
+src: url("AvenirNextLTPro-Regular.otf") format("opentype");
+
+}
+
+#eo-div {
+	background-color: rgba(35, 36, 35, 1.0);
+	position: absolute;
+	height: auto;
+	right: 0%;
+	width: 100%;
+}
+
+#eo-plate {
+	margin-top: 1.5%;
+	position: relative;
+	text-align: left;
+  	width: 80%;
+  	min-height: 50%;
+}
+
+#eo-plate img {
+	width: 60%;
+}
+
+#eo-ios {
+	margin-top: -46%;
+	margin-left: 11.5%;
+	position: relative;
+	text-align: left;
+	width: 70%;
+	height: 70%;	
+}
+
+#eo-ios img {
+	width: 35%;	
+}
+
+#eo-content {
+	font-family: AvenirNext;
+	margin-top: -35%;
+	text-align: right;
+	color: white;
+}
+
+#eo-logo {
+	max-height: 50%;
+}
+
+#eo-logo img {
+	margin-right: 7%;
+	max-height: 35%;
+	max-width: 35%;
+}
+
+#eo-info, #eo-motto {
+	color: white;
+	width: 35%;
+	margin-left: 57%;
+	text-align: center;
+}
+
+#eo-motto {
+	font-size: 4vw;
+	animation: motto-slide 1.75s;
+	-webkit-animation: motto-slide 1.75s;	
+}
+
+#eo-info {
+	font-size: 2vw;
+	animation: info-fade 3s;
+}
