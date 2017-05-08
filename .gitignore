@@ -4,3 +4,9 @@
 *.pem
 
 *.csv
+
+*.yml
+
+*.lock
+
+*.lock
