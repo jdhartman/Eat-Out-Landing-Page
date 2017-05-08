@@ -48,8 +48,7 @@ html, body {
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 800px) 
+  and (max-device-width: 1200px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
   	.container {
 		position: absolute;
@@ -59,7 +58,7 @@ html, body {
 
 	.plate {
 		position: absolute;
-		margin-top: 135%;
+		margin-top: 145%;
 	  	width: 100%;
 	  	min-height: 50%;
 	}
@@ -69,7 +68,7 @@ html, body {
 
 	.ios {
 		position: absolute;
-		margin-top: 135%;
+		margin-top: 145%;
 		width: 100%;
 	  	min-height: 50%;	
 	}

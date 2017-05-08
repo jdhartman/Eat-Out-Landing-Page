@@ -10,6 +10,7 @@
 	.logo {
 		margin-right: 10%; 
 		max-height: 50%;
+		padding-bottom: 5%;
 	}
 
 	.logo img {
@@ -37,11 +38,14 @@
 	}
 
 	#mc_signup {
+		padding-top: 5%;
+		padding-bottom: 10%;
 		margin-top: 5%;
 		text-align: center;
-		width: 35%;
-		margin-left: 57%;
+		width: 85%;
+		margin-left: 8%;
 		font-size: 1.75vw;
+		color: white;
 	}
 
 	.button {
@@ -64,14 +68,13 @@
         -webkit-transition: width 2.4s ease-in-out;
     	transition: width 2.4s ease-in-out;
     	height: 5%;
-    	font-size: 1.5vw;
+    	font-size: 1vw;
     	width: 45%;
 	}
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 800px) 
+  and (max-device-width: 1200px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
  	.content {
 		text-align: center;
@@ -107,6 +110,44 @@
 		font-size: 6vw;
 		animation: info-fade 3s;
 		-webkit-animation: info-fade 3s;
+	}
+
+
+	#mc_signup {
+		margin-top: 5%;
+		margin-left: 20%;
+		text-align: center;
+		width: 60%;
+		font-size: 4.5vw;
+		color: white;
+	}
+
+	.button {
+	  background: #f05a5a;
+	  -webkit-border-radius: 10;
+	  -moz-border-radius: 10;
+	  border-radius: 10px;
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding: 15px 70px 15px 70px;
+	  text-decoration: none;
+	  border: solid rgba(35, 36, 35, 1.0) 2px;
+	}
+
+	.button:hover {
+	  cursor: pointer;
+	}
+
+	label {
+		padding-bottom: 50px;
+	}
+
+	input[type=email] {
+        -webkit-transition: width 2.4s ease-in-out;
+    	transition: width 2.4s ease-in-out;
+    	height: 15%;
+    	font-size: 2.5vw;
+    	width: 45%;
 	}
 }
 
