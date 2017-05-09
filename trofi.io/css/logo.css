@@ -24,19 +24,27 @@ li {
 }
 
 #twitter{
-	zoom: 10%;
-	padding: 40px;
+	padding: 15%;
 }
 
 #instagram {
-	zoom: 8%;
-	padding: 40px;
+	padding: 15%;
 }
 
 #facebook {
-	zoom: 4%;
-	padding: 40px;
+	padding: 15%;
 }
 
+#twitter img {
+	width: 3.5vw;
+}
+
+#instagram img  {
+	width: 3.5vw;
+}
+
+#facebook img  {
+	width: 3.5vw;
+}
 
 

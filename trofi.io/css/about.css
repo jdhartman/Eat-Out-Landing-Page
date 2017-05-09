@@ -1,0 +1,41 @@
+#about-div {
+	min-height: 500px;
+	position: relative;
+	text-align: center;
+}
+
+#about-title {
+	font-family: AvenirNext;
+	font-size: 3vw;
+}
+
+#about-join {
+	font-family: AvenirNext;
+	font-size: 1.5vw;	
+	color: black;
+}
+
+.profile_pics {
+	position: relative;
+	text-align: center;
+	font-family: AvenirNext;
+	padding: 0% 2.5% 0% 2.5%;
+}
+
+
+
+.profile_pics .portrait_name {
+	font-size: 2vw;
+}
+
+.profile_pics .portrait_description {
+	font-size: 1vw;
+}
+
+.profile_pics img {
+	margin-top: 15%;
+	height: 12vw;
+	border-radius: 6vw;
+	zoom: 125%;
+}
+
