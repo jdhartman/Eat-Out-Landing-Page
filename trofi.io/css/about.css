@@ -31,6 +31,10 @@
 		color: black;
 	}
 
+	a:hover {
+		text-decoration: underline;
+	}
+
 	.profile_pics .portrait_name {
 		font-size: 2vw;
 	}
@@ -72,7 +76,7 @@
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		color: black;
 	}
 

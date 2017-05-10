@@ -99,7 +99,7 @@
 	}
 
 	#eo-plate {
-		padding-top: 50%;
+		padding-top: 56%;
 		margin-top: 1.5%;
 		position: relative;
 		text-align: center;
@@ -126,7 +126,7 @@
 
 	#eo-content {
 		font-family: AvenirNext;
-		margin-top: -120%;
+		margin-top: -134%;
 		text-align: center;
 		color: white;
 	}
@@ -148,13 +148,13 @@
 	}
 
 	#eo-motto {
-		font-size: 5vw;
+		font-size: 6vw;
 		animation: motto-slide 1.75s;
 		-webkit-animation: motto-slide 1.75s;	
 	}
 
 	#eo-info {
-		font-size: 3.5vw;
+		font-size: 4.5vw;
 		animation: info-fade 3s;
 	}
 

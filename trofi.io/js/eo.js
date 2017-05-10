@@ -5,9 +5,9 @@ window.onload = function() {
 
 
 function divResize() {
- 	if($(window).width() < 1200) {
+ 	if(screen.width < 1200) {
  		var plateHeight = $("#eo-plate").height();
- 		var divMargin = plateHeight * .83;
+ 		var divMargin = plateHeight * .93;
  		var heightFix = (plateHeight + divMargin);
  	}
  	else {
