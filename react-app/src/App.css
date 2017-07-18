@@ -1,24 +1,219 @@
-.App {
-  text-align: center;
+@media screen 
+  and (min-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+	#about-div {
+		min-height: 500px;
+		position: relative;
+		text-align: center;
+	}
+
+	#about-title {
+		font-family: AvenirNext;
+		font-size: 3vw;
+	}
+
+	#about-join {
+		font-family: AvenirNext;
+		font-size: 1.5vw;	
+		color: black;
+	}
+
+	.profile_pics {
+		position: relative;
+		text-align: center;
+		font-family: AvenirNext;
+		padding: 0% 2.5% 0% 2.5%;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.profile_pics .portrait_name {
+		font-size: 2vw;
+	}
+
+	.profile_pics .portrait_description {
+		font-size: 1vw;
+	}
+
+	.profile_pics img {
+		margin-top: 15%;
+		height: 12vw;
+		border-radius: 6vw;
+		zoom: 125%;
+	}
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@media screen 
+  and (max-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  	li {
+  		display: inline;
+  	}
+	#about-div {
+		min-height: 500px;
+		position: relative;
+		text-align: center;
+	}
+
+	#about-title {
+		font-family: AvenirNext;
+		font-size: 8vw;
+	}
+
+	#about-join {
+		font-family: AvenirNext;
+		font-size: 3.5vw;	
+		color: black;
+	}
+
+	a {
+		text-decoration: underline;
+		color: black;
+	}
+
+	.profile_pics {
+		position: relative;
+		text-align: center;
+		font-family: AvenirNext;
+	}
+
+	.profile_pics .portrait_name {
+		font-size: 6vw;
+		margin-right: 3.5%;
+	}
+
+	.profile_pics .portrait_description {
+		font-size: 3.5vw;
+		margin-right: 3.5%;
+	}
+
+	.profile_pics img {
+		margin-right: 3.5%;
+		margin-top: 15%;
+		height: 40vw;
+		border-radius: 15vw;
+		zoom: 125%;
+	}
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+html, body {
+	overflow-x: hidden;
 }
 
-.App-intro {
-  font-size: large;
+@media screen 
+  and (min-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 1) {  
+
+	div {
+		width: 100%;
+	}
+
+	#title-logo {
+		text-align: center;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	#logo-div {
+		text-align: center;
+	}
+
+	#social {
+		margin: 0 auto;
+		text-align: center;
+		padding-right: 60px;
+		padding-bottom: 50px;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	#twitter{
+		padding: 15%;
+	}
+
+	#instagram {
+		padding: 15%;
+	}
+
+	#facebook {
+		padding: 15%;
+	}
+
+	#twitter img {
+		width: 3.5vw;
+	}
+
+	#instagram img  {
+		width: 3.5vw;
+	}
+
+	#facebook img  {
+		width: 3.5vw;
+	}
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media screen 
+  and (max-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 2) {  
+
+	div {
+		width: 100%;
+	}
+
+	#title-logo {
+		text-align: center;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	#logo-div {
+		text-align: center;
+	}
+
+	#social {
+		margin: 0 auto;
+		text-align: center;
+		padding-right: 60px;
+		padding-bottom: 50px;
+	}
+
+	li {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	#twitter{
+		padding: 5.5%;
+	}
+
+	#instagram {
+		padding: 5.5%;
+	}
+
+	#facebook {
+		padding: 5.5%;
+	}
+
+	#twitter img {
+		width: 9.5vw;
+	}
+
+	#instagram img  {
+		width: 9.5vw;
+	}
+
+	#facebook img  {
+		width: 9.5vw;
+	}
 }

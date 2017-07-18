@@ -1,18 +1,129 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div id="logo-div">
+          <img id="title-logo" src="images/trofi-logo.png" />
+
+          <div id="social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/Trofi-LLC-308796409540099/" id="facebook" target="_blank">
+                  <img src="images/FB-Logo.png" />
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/trofiLLC" id="twitter" target="_blank">
+                  <img src="images/Twitter-Logo.png" />
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/trofi_llc/" id="instagram" target="_blank">
+                  <img src="images/IG-Logo.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <a href="http://eatout.trofi.io/" target="_blank">
+          <div id="eo-div">
+            <div id="eo-plate">
+              <img src="images/plate.png" />
+            </div>
+
+            <div id="eo-ios"> 
+                <img src="images/iOS-mockup.png" />
+            </div>
+
+            <div id="eo-content">
+              <div id="eo-logo">
+                <img src= "images/Eat Out Logo.png" />
+              </div>
+
+              <div id="eo-motto">
+                Let's eat already.
+              </div>
+
+              <div id="eo-info">
+                A cross-platform restaurant finder that is coming soon to iOS and Android devices.
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <div id="about-div">
+          <p id="about-title">Who We Are</p>
+
+          <ul>
+            <li class="profile_pics">
+              <a href="http://justinhartman.me/">
+                <img src="images/portraits/justin.png" />
+              </a>
+
+              <a href="http://justinhartman.me/">
+                <p class="portrait_name">
+                  Justin Hartman
+                </p>
+              </a>
+
+              <p class="portrait_description">
+                Co-founder / iOS Developer
+              </p>
+            </li>
+
+            <li class="profile_pics">
+              <img src="images/portraits/theo.png" />
+
+              <p class="portrait_name">
+                Theo Burkhart
+              </p>
+
+              <p class="portrait_description">
+                Co-founder / iOS Developer
+              </p>
+            </li>
+
+            <li class="profile_pics">
+              <a href="http://magnusfrater.net/">
+                <img src="images/portraits/todd.jpg" />
+                </a>
+
+              <a href="http://magnusfrater.net/">
+                <p class="portrait_name">
+                  Todd Griffin
+                </p>
+              </a>
+
+              <p class="portrait_description">
+                Co-founder / Android Developer
+              </p>
+            </li>
+
+            <li class="profile_pics">
+              <img src="images/portraits/glen.jpg" />
+
+              <p class="portrait_name">
+                Glen Eder
+              </p>
+
+              <p class="portrait_description">
+                Co-founder / Android Developer
+              </p>
+            </li>
+          </ul>
+
+          <a id="about-join" href="https://docs.google.com/forms/d/e/1FAIpQLScW0bi6960ahp8PqsmlLKOOUAc4V9MR-H77Rq2pFCjdp-yOWg/viewform" target="blank"> 
+            <p>Want to join our team?</p>
+          </a>
+        </div>
       </div>
     );
   }
