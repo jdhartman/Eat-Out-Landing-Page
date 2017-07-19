@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 
-import JustinPortrait from './res/images/portraits/justin.PNG'
-import TheoPortrait from './res/images/portraits/theo.PNG'
-import ToddPortrait from './res/images/portraits/todd.jpg'
-import GlenPortrait from './res/images/portraits/glen.jpg'
-
 import './App.css';
 
 import Header from './Header'
