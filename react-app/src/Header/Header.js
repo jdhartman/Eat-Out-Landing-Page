@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
-import TrofiLogo from './res/images/trofi-logo.png'
+import TrofiLogo from '../res/images/trofi-logo.png'
 
-import FacebookLogo from './res/images/FB-Logo.png'
-import TwitterLogo from './res/images/Twitter-Logo.png'
-import InstagramLogo from './res/images/IG-Logo.png'
+import FacebookLogo from '../res/images/FB-Logo.png'
+import TwitterLogo from '../res/images/Twitter-Logo.png'
+import InstagramLogo from '../res/images/IG-Logo.png'
+
+import './Header.css'
 
 class Header extends Component {
     render () {

@@ -1,0 +1,114 @@
+@media screen 
+  and (min-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+	#about-div {
+		min-height: 500px;
+		position: relative;
+		text-align: center;
+	}
+
+	#about-title {
+		font-family: AvenirNext;
+		font-size: 3vw;
+	}
+
+	#about-join {
+		font-family: AvenirNext;
+		font-size: 1.5vw;	
+		color: black;
+	}
+
+	.profile_pics {
+		position: relative;
+		text-align: center;
+		font-family: AvenirNext;
+		padding: 0% 2.5% 0% 2.5%;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.profile_pics .portrait_name {
+		font-size: 2vw;
+	}
+
+	.profile_pics .portrait_description {
+		font-size: 1vw;
+	}
+
+	.profile_pics img {
+		margin-top: 15%;
+		height: 12vw;
+		border-radius: 6vw;
+		zoom: 125%;
+	}
+	.gif img{
+		width: 25px;
+		height: auto;
+	}
+}
+
+@media screen 
+  and (max-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  	li {
+  		display: inline;
+  	}
+	#about-div {
+		min-height: 500px;
+		position: relative;
+		text-align: center;
+	}
+
+	#about-title {
+		font-family: AvenirNext;
+		font-size: 8vw;
+	}
+
+	#about-join {
+		font-family: AvenirNext;
+		font-size: 3.5vw;	
+		color: black;
+	}
+
+	a {
+		text-decoration: underline;
+		color: black;
+	}
+
+	.profile_pics {
+		position: relative;
+		text-align: center;
+		font-family: AvenirNext;
+	}
+
+	.profile_pics .portrait_name {
+		font-size: 6vw;
+		margin-right: 3.5%;
+	}
+
+	.profile_pics .portrait_description {
+		font-size: 3.5vw;
+		margin-right: 3.5%;
+	}
+
+	.profile_pics img {
+		margin-right: 3.5%;
+		margin-top: 15%;
+		height: 40vw;
+		border-radius: 15vw;
+		zoom: 125%;
+	}
+	.gif img{
+		width: 25px;
+		height: auto;
+	}
+}

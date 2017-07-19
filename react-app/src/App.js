@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import Header from './Header'
-import EatOut from './EatOut'
-import Founders from './Founders'
+import Header from './Header/Header'
+import EatOut from './EatOut/EatOut'
+import Founders from './Founders/Founders'
 
 class App extends Component {
   render() {
