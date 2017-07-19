@@ -3,7 +3,6 @@ window.onload = function() {
   divResize();
 };
 
-
 function divResize() {
  	if(screen.width < 1200) {
  		var plateHeight = $("#eo-plate").height();
