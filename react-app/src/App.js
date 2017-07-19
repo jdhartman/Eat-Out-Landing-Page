@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 
-import TrofiLogo from './res/images/trofi-logo.png'
-
-import FacebookLogo from './res/images/FB-Logo.png'
-import IGLogo from './res/images/IG-Logo.png'
-import TwitterLogo from './res/images/Twitter-Logo.png'
-
 import EatOutLogo from './res/images/Eat Out Logo.png';
 import iOSMockup from './res/images/iOS-mockup.png'
 import Plate from './res/images/plate.png'
@@ -17,35 +11,13 @@ import GlenPortrait from './res/images/portraits/glen.jpg'
 
 import './App.css';
 
+import Header from './Header'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="logo-div">
-          <img id="title-logo" src={TrofiLogo} />
-
-          <div id="social">
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/Trofi-LLC-308796409540099/" id="facebook" target="_blank">
-                  <img src={FacebookLogo} />
-                </a>
-              </li>
-
-              <li>
-                <a href="https://twitter.com/trofiLLC" id="twitter" target="_blank">
-                  <img src={TwitterLogo} />
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.instagram.com/trofi_llc/" id="instagram" target="_blank">
-                  <img src={IGLogo} />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Header />
 
         <a href="http://eatout.trofi.io/" target="_blank">
           <div id="eo-div">
