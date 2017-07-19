@@ -10,7 +10,7 @@ class Header extends Component {
     render () {
         return (
             <div id="logo-div">
-                <img id="title-logo" src="images/trofi-logo.png" />
+                <img id="title-logo" src={TrofiLogo} />
 
                 <div id="social">
                     <ul>
