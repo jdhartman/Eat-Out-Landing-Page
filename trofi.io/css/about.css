@@ -49,6 +49,10 @@
 		border-radius: 6vw;
 		zoom: 125%;
 	}
+	.gif img{
+		width: 25px;
+		height: auto;
+	}
 }
 
 @media screen 
@@ -104,5 +108,9 @@
 		height: 40vw;
 		border-radius: 15vw;
 		zoom: 125%;
+	}
+	.gif img{
+		width: 25px;
+		height: auto;
 	}
 }
