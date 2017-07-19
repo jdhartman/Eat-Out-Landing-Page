@@ -4,6 +4,8 @@ import EatOutLogo from './res/images/Eat Out Logo.png';
 import iOSMockup from './res/images/iOS-mockup.png'
 import Plate from './res/images/plate.png'
 
+import './EatOut.css'
+
 class EatOut extends Component {
     render () {
         return (
