@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-import JustinPortrait from './res/images/portraits/justin.PNG'
-import TheoPortrait from './res/images/portraits/theo.PNG'
-import ToddPortrait from './res/images/portraits/todd.jpg'
-import GlenPortrait from './res/images/portraits/glen.jpg'
+import JustinPortrait from '../res/images/portraits/justin.PNG'
+import TheoPortrait from '../res/images/portraits/theo.PNG'
+import ToddPortrait from '../res/images/portraits/todd.jpg'
+import GlenPortrait from '../res/images/portraits/glen.jpg'
+
+import './Founders.css'
 
 class Founders extends Component {
     render () {
