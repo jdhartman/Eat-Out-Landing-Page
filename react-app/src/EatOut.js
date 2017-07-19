@@ -13,16 +13,16 @@ class EatOut extends Component {
                 <a href="http://eatout.trofi.io/" target="_blank">
                     <div id="eo-div">
                         <div id="eo-plate">
-                            <img src={Plate} />
+                            <img src={Plate} alt="plate" />
                         </div>
 
                         <div id="eo-ios"> 
-                            <img src={iOSMockup} />
+                            <img src={iOSMockup} alt="ios mockup" />
                         </div>
 
                         <div id="eo-content">
                             <div id="eo-logo">
-                                <img src={EatOutLogo} />
+                                <img src={EatOutLogo} alt="eat out logo" />
                             </div>
 
                             <div id="eo-motto">
