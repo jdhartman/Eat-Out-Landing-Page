@@ -14,7 +14,7 @@ class Founders extends Component {
                 <ul>
                     <li className="profile_pics">
                         <a href="http://justinhartman.me/">
-                            <img src={JustinPortrait} />
+                            <img src={JustinPortrait} alt="justin portrait" />
                         </a>
 
                         <a href="http://justinhartman.me/">
@@ -29,7 +29,7 @@ class Founders extends Component {
                     </li>
 
                     <li className="profile_pics">
-                        <img src={TheoPortrait} />
+                        <img src={TheoPortrait} alt="theo portrait" />
 
                         <p className="portrait_name">
                             Theo Burkhart
@@ -42,7 +42,7 @@ class Founders extends Component {
 
                     <li className="profile_pics">
                         <a href="http://magnusfrater.net/">
-                            <img src={ToddPortrait} />
+                            <img src={ToddPortrait} alt="todd portrait" />
                         </a>
 
                         <a href="http://magnusfrater.net/">
@@ -57,7 +57,7 @@ class Founders extends Component {
                     </li>
 
                     <li className="profile_pics">
-                        <img src={GlenPortrait} />
+                        <img src={GlenPortrait} alt="glen portrait" />
 
                         <p className="portrait_name">
                             Glen Eder

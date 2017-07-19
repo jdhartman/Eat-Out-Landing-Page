@@ -15,19 +15,34 @@ class Header extends Component {
                 <div id="social">
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/Trofi-LLC-308796409540099/" id="facebook" target="_blank">
+                            <a
+                                href="https://www.facebook.com/Trofi-LLC-308796409540099/"
+                                id="facebook"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <img src={FacebookLogo} alt="facebook logo" />
                             </a>
                         </li>
 
                         <li>
-                            <a href="https://twitter.com/trofiLLC" id="twitter" target="_blank">
+                            <a
+                                href="https://twitter.com/trofiLLC"
+                                id="twitter"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <img src={TwitterLogo} alt="twitter logo" />
                             </a>
                         </li>
 
                         <li>
-                            <a href="https://www.instagram.com/trofi_llc/" id="instagram" target="_blank">
+                            <a
+                                href="https://www.instagram.com/trofi_llc/"
+                                id="instagram"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <img src={InstagramLogo} alt="instagram logo" />
                             </a>
                         </li>

@@ -10,7 +10,11 @@ class EatOut extends Component {
     render () {
         return (
             <div className="EatOut">
-                <a href="http://eatout.trofi.io/" target="_blank">
+                <a
+                    href="http://eatout.trofi.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div id="eo-div">
                         <div id="eo-plate">
                             <img src={Plate} alt="plate" />
