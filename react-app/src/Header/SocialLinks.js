@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 
-import FacebookLogo from '../res/images/FB-Logo.png'
-import TwitterLogo from '../res/images/Twitter-Logo.png'
-import InstagramLogo from '../res/images/IG-Logo.png'
+import Link from './Link'
 
 class SocialLinks extends Component {
     constructor () {
@@ -11,16 +9,13 @@ class SocialLinks extends Component {
         this.state = {
             links: {
                 facebook: {
-                    link: "https://www.facebook.com/Trofi-LLC-308796409540099/",
-                    src: {FacebookLogo}
+                    url: "https://www.facebook.com/Trofi-LLC-308796409540099/"
                 },
                 twitter: {
-                    link: "https://twitter.com/trofiLLC",
-                    src: {TwitterLogo}
+                    url: "https://twitter.com/trofiLLC"
                 },
                 instagram: {
-                    link: "https://www.instagram.com/trofi_llc/",
-                    src: {InstagramLogo}
+                    url: "https://www.instagram.com/trofi_llc/"
                 }
             }
         }
@@ -30,38 +25,14 @@ class SocialLinks extends Component {
         return (
             <div id="social">
                 <ul>
-                    <li>
-                        <a
-                            href="https://www.facebook.com/Trofi-LLC-308796409540099/"
-                            id="facebook"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img src={FacebookLogo} alt="facebook logo" />
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://twitter.com/trofiLLC"
-                            id="twitter"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img src={TwitterLogo} alt="twitter logo" />
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://www.instagram.com/trofi_llc/"
-                            id="instagram"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img src={InstagramLogo} alt="instagram logo" />
-                        </a>
-                    </li>
+                    { Object.keys(this.state.links)
+                        .map(key => 
+                            <Link
+                                name={key}
+                                link={this.state.links[key]}
+                            />
+                        )
+                    }
                 </ul>
             </div>
         )
