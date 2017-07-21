@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Logo from './Logo'
 import Motto from './Motto'
+import Info from './Info'
 
 class Main extends Component {
     render () {
@@ -11,9 +12,7 @@ class Main extends Component {
 
                 <Motto />
 
-                <div id="eo-info">
-                    A cross-platform restaurant finder that is coming soon to iOS and Android devices.
-                </div>
+                <Info />
             </div>
         )
     }
