@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 
-import EatOutLogo from '../res/images/Eat Out Logo.png';
+import Logo from './Logo'
 
 class Main extends Component {
     render () {
         return (
             <div id="eo-content">
-                <div id="eo-logo">
-                    <img src={EatOutLogo} alt="eat out logo" />
-                </div>
+                <Logo />
 
                 <div id="eo-motto">
                     Let's eat already.

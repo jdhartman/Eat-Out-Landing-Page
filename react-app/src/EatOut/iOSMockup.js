@@ -9,3 +9,5 @@ const iOSMockup = () => {
         </div>
     )
 }
+
+export default iOSMockup
