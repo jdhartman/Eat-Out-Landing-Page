@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './Founders.css'
 
 import Profile from './Profile'
+import JoinUs from './JoinUs'
 
 class Founders extends Component {
     constructor () {
@@ -50,11 +51,7 @@ class Founders extends Component {
                     }
                 </ul>
 
-                <a id="about-join" href="https://docs.google.com/forms/d/e/1FAIpQLScW0bi6960ahp8PqsmlLKOOUAc4V9MR-H77Rq2pFCjdp-yOWg/viewform" target="blank"> 
-                    <p>
-                        Want to join our team?
-                    </p>
-                </a>
+                <JoinUs />
             </div>
         )
     }
