@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 import EatOutLogo from '../res/images/Eat Out Logo.png';
-import iOSMockup from '../res/images/iOS-mockup.png'
 
 import './EatOut.css'
 
 import Plate from './Plate'
+import iOSMockup from './iOSMockup'
 
 class EatOut extends Component {
     render () {
@@ -19,9 +19,7 @@ class EatOut extends Component {
                     <div id="eo-div">
                         <Plate />
 
-                        <div id="eo-ios"> 
-                            <img src={iOSMockup} alt="ios mockup" />
-                        </div>
+                        <iOSMockup />
 
                         <div id="eo-content">
                             <div id="eo-logo">
