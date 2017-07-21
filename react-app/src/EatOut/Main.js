@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Logo from './Logo'
+import Motto from './Motto'
 
 class Main extends Component {
     render () {
@@ -8,9 +9,7 @@ class Main extends Component {
             <div id="eo-content">
                 <Logo />
 
-                <div id="eo-motto">
-                    Let's eat already.
-                </div>
+                <Motto />
 
                 <div id="eo-info">
                     A cross-platform restaurant finder that is coming soon to iOS and Android devices.
