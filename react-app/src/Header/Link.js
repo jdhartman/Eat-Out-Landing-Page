@@ -15,6 +15,9 @@ const Link = ({name, link}) => {
 
             case "instagram":
                 return InstagramLogo
+            
+            default:
+                return null
         }
     }
 
