@@ -1,74 +1,53 @@
 import React, { Component } from 'react'
 
-import JustinPortrait from '../res/images/portraits/justin.PNG'
-import TheoPortrait from '../res/images/portraits/theo.PNG'
-import ToddPortrait from '../res/images/portraits/todd.jpg'
-import GlenPortrait from '../res/images/portraits/glen.jpg'
-
 import './Founders.css'
 
+import Profile from './Profile'
+
 class Founders extends Component {
+    constructor () {
+        super()
+
+        this.state = {
+            profiles: {
+                Justin: {
+                    name: "Justin Hartman",
+                    role: "Co-founder / iOS Developer",
+                    url: "http://justinhartman.me/"
+                },
+                Theo: {
+                    name: "Theo Burkhart",
+                    role: "Co-founder / iOS Developer",
+                    url: ""
+                },
+                Todd: {
+                    name: "Todd Griffin",
+                    role: "Co-founder / Android Developer",
+                    url: "http://magnusfrater.net/"
+                },
+                Glen: {
+                    name: "Glen Eder",
+                    role: "Co-founder / Android Developer",
+                    url: ""
+                }
+            }
+        }
+    }
+
     render () {
         return (
             <div id="about-div">
                 <p id="about-title">Who We Are</p>
 
                 <ul>
-                    <li className="profile_pics">
-                        <a href="http://justinhartman.me/">
-                            <img src={JustinPortrait} alt="justin portrait" />
-                        </a>
-
-                        <a href="http://justinhartman.me/">
-                            <p className="portrait_name">
-                                Justin Hartman
-                            </p>
-                        </a>
-
-                        <p className="portrait_description">
-                            Co-founder / iOS Developer
-                        </p>
-                    </li>
-
-                    <li className="profile_pics">
-                        <img src={TheoPortrait} alt="theo portrait" />
-
-                        <p className="portrait_name">
-                            Theo Burkhart
-                        </p>
-
-                        <p className="portrait_description">
-                            Co-founder / iOS Developer
-                        </p>
-                    </li>
-
-                    <li className="profile_pics">
-                        <a href="http://magnusfrater.net/">
-                            <img src={ToddPortrait} alt="todd portrait" />
-                        </a>
-
-                        <a href="http://magnusfrater.net/">
-                            <p className="portrait_name">
-                                Todd Griffin
-                            </p>
-                        </a>
-
-                        <p className="portrait_description">
-                            Co-founder / Android Developer
-                        </p>
-                    </li>
-
-                    <li className="profile_pics">
-                        <img src={GlenPortrait} alt="glen portrait" />
-
-                        <p className="portrait_name">
-                            Glen Eder
-                        </p>
-
-                        <p className="portrait_description">
-                            Co-founder / Android Developer
-                        </p>
-                    </li>
+                    {Object.keys(this.state.profiles)
+                        .map(key => 
+                            <Profile
+                                name={key}
+                                profile={this.state.profiles[key]}
+                            />
+                        )
+                    }
                 </ul>
 
                 <a id="about-join" href="https://docs.google.com/forms/d/e/1FAIpQLScW0bi6960ahp8PqsmlLKOOUAc4V9MR-H77Rq2pFCjdp-yOWg/viewform" target="blank"> 
