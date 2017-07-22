@@ -4,7 +4,7 @@ import './global.css'
 
 import Link from './Link'
 
-class SocialLinks extends Component {
+class MediaLinks extends Component {
     constructor () {
         super()
 
@@ -25,7 +25,7 @@ class SocialLinks extends Component {
 
     render () {
         return (
-            <div id="social">
+            <div className="MediaLinks">
                 <ul>
                     { Object.keys(this.state.links)
                         .map(key => 
@@ -41,4 +41,4 @@ class SocialLinks extends Component {
     }
 }
 
-export default SocialLinks
+export default MediaLinks

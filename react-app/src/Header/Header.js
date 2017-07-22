@@ -5,7 +5,7 @@ import TrofiLogo from '../res/images/trofi-logo.png'
 import './global.css'
 import './Header.css'
 
-import SocialLinks from './SocialLinks'
+import MediaLinks from './MediaLinks'
 
 class Header extends Component {
     render () {
@@ -13,7 +13,7 @@ class Header extends Component {
             <div className="Header">
                 <img id="logo" src={TrofiLogo} alt="trofi logo" />
 
-                <SocialLinks />
+                <MediaLinks />
             </div>
         )
     }
