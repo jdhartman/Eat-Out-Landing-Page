@@ -1,20 +1,21 @@
 import React from 'react'
 
 import './global.css'
-import './Link.css'
+import './SocialMediaLink.css'
 
-const Link = ({name, link}) => {
+const SocialMediaLink = ({name, link}) => {
     return (
-        <li className="Link" id={name}>
+        <div className="SocialMediaLink">
             <a
+                id={name}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 {link.font}
             </a>
-        </li>
+        </div>
     )
 }
 
-export default Link
+export default SocialMediaLink

@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import FontAwesome from 'react-fontawesome'
 
 import './global.css'
-import './MediaLinks.css'
+import './SocialMedia.css'
 
-import Link from './Link'
+import SocialMediaLink from './SocialMediaLink'
 
-class MediaLinks extends Component {
+class SocialMedia extends Component {
     constructor () {
         super()
 
@@ -14,15 +14,15 @@ class MediaLinks extends Component {
             links: {
                 facebook: {
                     url: "https://www.facebook.com/Trofi-LLC-308796409540099/",
-                    font: <FontAwesome name='facebook-square' size="4x" />
+                    font: <FontAwesome name='facebook-square' size="3x" />
                 },
                 twitter: {
                     url: "https://twitter.com/trofiLLC",
-                    font: <FontAwesome name='twitter-square' size="4x" />
+                    font: <FontAwesome name='twitter-square' size="3x" />
                 },
                 instagram: {
                     url: "https://www.instagram.com/trofi_llc/",
-                    font: <FontAwesome name='instagram' size="4x" />
+                    font: <FontAwesome name='instagram' size="3x" />
                 }
             }
         }
@@ -30,18 +30,19 @@ class MediaLinks extends Component {
 
     render () {
         return (
-            <ul className="MediaLinks">
+            <div className="SocialMedia">
                 { Object.keys(this.state.links)
                     .map(key => 
-                        <Link
+                        <SocialMediaLink
+                            key={key}
                             name={key}
                             link={this.state.links[key]}
                         />
                     )
                 }
-            </ul>
+            </div>
         )
     }
 }
 
-export default MediaLinks
+export default SocialMedia

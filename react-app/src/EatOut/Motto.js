@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './global.css'
+
 const Motto = () => {
     return (
-        <div id="eo-motto">
+        <div className="Motto">
             Let's eat already.
         </div>
     )
