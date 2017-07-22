@@ -1,27 +1,27 @@
-#eo-info {
-	color: white;
+.Info {
+	  color: white;
     text-align: center;
     animation: info-fade 3s;
 }
 
 @media screen 
-  and (min-device-width: 1200px)  
-  and (-webkit-min-device-pixel-ratio: 1) { 
+    and (min-device-width: 1200px)  
+    and (-webkit-min-device-pixel-ratio: 1) { 
 
-	#eo-info {
-		width: 35%;
+    .Info {
+        width: 35%;
         margin-left: 57%;
         font-size: 2vw;
-	}
+    }
 }
 
 @media screen 
-  and (max-device-width: 1200px)  
-  and (-webkit-min-device-pixel-ratio: 2) { 
+    and (max-device-width: 1200px)  
+    and (-webkit-min-device-pixel-ratio: 2) { 
 
-	#eo-info {
-		width: 55%;
+    .Info {
+        width: 55%;
         margin-left: 22%;
         font-size: 4.5vw;
-	}
+    }
 }

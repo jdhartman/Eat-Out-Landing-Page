@@ -5,7 +5,7 @@ import './Info.css'
 
 const Info = () => {
     return (
-        <div className="Info" id="eo-info">
+        <div className="Info">
             A cross-platform restaurant finder that is coming soon to iOS and Android devices.
         </div>
     )
