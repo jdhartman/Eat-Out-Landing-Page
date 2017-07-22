@@ -44,16 +44,9 @@
 	color: white;
 }
 
-#eo-info, #eo-motto {
-	color: white;
-	text-align: center;
-}
-
 #eo-motto {
-	animation: motto-slide 1.75s;
+	color: white;
+    text-align: center;
+    animation: motto-slide 1.75s;
 	-webkit-animation: motto-slide 1.75s;
-}
-
-#eo-info {
-    animation: info-fade 3s;
 }

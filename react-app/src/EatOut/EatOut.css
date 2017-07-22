@@ -23,17 +23,10 @@
 		margin-right: 7%;
 	}
 
-	#eo-info, #eo-motto {
+	#eo-motto {
 		width: 35%;
 		margin-left: 57%;
-	}
-
-	#eo-motto {
 		font-size: 4vw;
-	}
-
-	#eo-info {
-		font-size: 2vw;
 	}
 }
 
@@ -59,16 +52,9 @@
 		text-align: center;
 	}
 
-	#eo-info, #eo-motto {
+	#eo-motto {
 		width: 55%;
 		margin-left: 22%;
-	}
-
-	#eo-motto {
 		font-size: 6vw;
-	}
-
-	#eo-info {
-		font-size: 4.5vw;
 	}
 }
