@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import FontAwesome from 'react-fontawesome'
 
 import './global.css'
-import './MediaLinks.css'
+import './SocialMedia.css'
 
 import Link from './Link'
 
-class MediaLinks extends Component {
+class SocialMedia extends Component {
     constructor () {
         super()
 
@@ -30,7 +30,7 @@ class MediaLinks extends Component {
 
     render () {
         return (
-            <ul className="MediaLinks">
+            <ul className="SocialMedia">
                 { Object.keys(this.state.links)
                     .map(key => 
                         <Link
@@ -44,4 +44,4 @@ class MediaLinks extends Component {
     }
 }
 
-export default MediaLinks
+export default SocialMedia
