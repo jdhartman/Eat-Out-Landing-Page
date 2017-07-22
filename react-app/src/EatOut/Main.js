@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './global.css'
+
 import Logo from './Logo'
 import Motto from './Motto'
 import Info from './Info'

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './global.css'
+
 const Info = () => {
     return (
         <div id="eo-info">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import './global.css'
 import './EatOut.css'
 
 import Plate from './Plate'
