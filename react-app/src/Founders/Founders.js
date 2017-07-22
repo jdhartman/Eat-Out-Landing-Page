@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import './Founders.css'
 
 import Profile from './Profile'
-import JoinUs from './JoinUs'
 
 class Founders extends Component {
     constructor () {
@@ -50,8 +49,6 @@ class Founders extends Component {
                         )
                     }
                 </ul>
-
-                <JoinUs />
             </div>
         )
     }
