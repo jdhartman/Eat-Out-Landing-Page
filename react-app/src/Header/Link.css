@@ -1,0 +1,37 @@
+.Link {
+	display: inline-block;
+}
+
+.Link a:hover {
+	color: rgb(50,50,50)
+}
+
+@media screen 
+  and (min-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+	.Link {
+		padding-left: 0.25%;
+		padding-right: 0.25%;
+	}
+
+	.Link a {
+		width: 3.5vw;
+	}
+}
+
+@media screen 
+  and (max-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.Link {
+		padding-left: 0.25%;
+		padding-right: 0.25%;
+
+		text-decoration: none;
+	}
+
+	.Link a {
+		width: 9.5vw;
+	}
+}
