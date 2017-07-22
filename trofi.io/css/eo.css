@@ -2,11 +2,9 @@
   and (min-device-width: 1200px)  
   and (-webkit-min-device-pixel-ratio: 1) { 
 
-	@font-face
-	{
-	font-family: AvenirNext;
-	src: url("AvenirNextLTPro-Regular.otf") format("opentype");
-
+	@font-face {
+		font-family: AvenirNext;
+		src: url("AvenirNextLTPro-Regular.otf") format("opentype");
 	}
 
 	#eo-div {
@@ -76,18 +74,15 @@
 		font-size: 2vw;
 		animation: info-fade 3s;
 	}
-
 }
 
 @media screen 
   and (max-device-width: 1200px)  
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-	@font-face
-	{
-	font-family: AvenirNext;
-	src: url("AvenirNextLTPro-Regular.otf") format("opentype");
-
+	@font-face {
+		font-family: AvenirNext;
+		src: url("AvenirNextLTPro-Regular.otf") format("opentype");
 	}
 
 	#eo-div {
@@ -157,5 +152,4 @@
 		font-size: 4.5vw;
 		animation: info-fade 3s;
 	}
-
 }
