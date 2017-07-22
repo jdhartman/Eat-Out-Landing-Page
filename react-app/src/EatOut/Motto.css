@@ -1,4 +1,4 @@
-#eo-motto {
+.Motto {
 	color: white;
     text-align: center;
     animation: motto-slide 1.75s;
@@ -9,7 +9,7 @@
   	and (min-device-width: 1200px)  
   	and (-webkit-min-device-pixel-ratio: 1) { 
 
-	#eo-motto {
+	.Motto {
 		width: 35%;
 		margin-left: 57%;
 		font-size: 4vw;
@@ -20,7 +20,7 @@
   	and (max-device-width: 1200px)  
   	and (-webkit-min-device-pixel-ratio: 2) { 
 
-	#eo-motto {
+	.Motto {
 		width: 55%;
 		margin-left: 22%;
 		font-size: 6vw;

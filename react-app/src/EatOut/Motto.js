@@ -4,7 +4,7 @@ import './global.css'
 
 const Motto = () => {
     return (
-        <div className="Motto" id="eo-motto">
+        <div className="Motto">
             Let's eat already.
         </div>
     )
