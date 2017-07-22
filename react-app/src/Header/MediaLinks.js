@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FontAwesome from 'react-fontawesome'
 
 import './global.css'
 import './MediaLinks.css'
@@ -12,13 +13,16 @@ class MediaLinks extends Component {
         this.state = {
             links: {
                 facebook: {
-                    url: "https://www.facebook.com/Trofi-LLC-308796409540099/"
+                    url: "https://www.facebook.com/Trofi-LLC-308796409540099/",
+                    font: <FontAwesome name='facebook-square' size="4x" />
                 },
                 twitter: {
-                    url: "https://twitter.com/trofiLLC"
+                    url: "https://twitter.com/trofiLLC",
+                    font: <FontAwesome name='twitter-square' size="4x" />
                 },
                 instagram: {
-                    url: "https://www.instagram.com/trofi_llc/"
+                    url: "https://www.instagram.com/trofi_llc/",
+                    font: <FontAwesome name='instagram' size="4x" />
                 }
             }
         }
@@ -26,18 +30,16 @@ class MediaLinks extends Component {
 
     render () {
         return (
-            <div className="MediaLinks">
-                <ul>
-                    { Object.keys(this.state.links)
-                        .map(key => 
-                            <Link
-                                name={key}
-                                link={this.state.links[key]}
-                            />
-                        )
-                    }
-                </ul>
-            </div>
+            <ul className="MediaLinks">
+                { Object.keys(this.state.links)
+                    .map(key => 
+                        <Link
+                            name={key}
+                            link={this.state.links[key]}
+                        />
+                    )
+                }
+            </ul>
         )
     }
 }

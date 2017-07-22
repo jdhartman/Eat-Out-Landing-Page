@@ -1,32 +1,21 @@
-li {
-    display: inline-block;
+.Link {
+	display: inline-block;
+}
+
+.Link a:hover {
+	color: rgb(50,50,50)
 }
 
 @media screen 
   and (min-device-width: 1200px)  
   and (-webkit-min-device-pixel-ratio: 1) {
 
-	#twitter{
-		padding: 15%;
+	.Link {
+		padding-left: 0.25%;
+		padding-right: 0.25%;
 	}
 
-	#instagram {
-		padding: 15%;
-	}
-
-	#facebook {
-		padding: 15%;
-	}
-
-	#twitter img {
-		width: 3.5vw;
-	}
-
-	#instagram img  {
-		width: 3.5vw;
-	}
-
-	#facebook img  {
+	.Link a {
 		width: 3.5vw;
 	}
 }
@@ -35,31 +24,14 @@ li {
   and (max-device-width: 1200px)  
   and (-webkit-min-device-pixel-ratio: 2) {
 
-	li {
+	.Link {
+		padding-left: 0.25%;
+		padding-right: 0.25%;
+
 		text-decoration: none;
 	}
 
-	#twitter{
-		padding: 5.5%;
-	}
-
-	#instagram {
-		padding: 5.5%;
-	}
-
-	#facebook {
-		padding: 5.5%;
-	}
-
-	#twitter img {
-		width: 9.5vw;
-	}
-
-	#instagram img  {
-		width: 9.5vw;
-	}
-
-	#facebook img  {
+	.Link a {
 		width: 9.5vw;
 	}
 }
