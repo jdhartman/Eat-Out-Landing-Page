@@ -1,8 +1,8 @@
-.Link {
+.SocialMediaLink {
 		display: inline-block;
 }
 
-.Link a:hover {
+.SocialMediaLink a:hover {
 		color: rgb(50,50,50)
 }
 
@@ -10,12 +10,12 @@
   	and (min-device-width: 1200px)  
   	and (-webkit-min-device-pixel-ratio: 1) {
 
-		.Link {
+		.SocialMediaLink {
 			padding-left: 0.25%;
 			padding-right: 0.25%;
 		}
 
-		.Link a {
+		.SocialMediaLink a {
 			width: 3.5vw;
 		}
 }
@@ -24,14 +24,14 @@
 		and (max-device-width: 1200px)  
 		and (-webkit-min-device-pixel-ratio: 2) {
 
-		.Link {
+		.SocialMediaLink {
 			padding-left: 0.25%;
 			padding-right: 0.25%;
 
 			text-decoration: none;
 		}
 
-		.Link a {
+		.SocialMediaLink a {
 			width: 9.5vw;
 		}
 }

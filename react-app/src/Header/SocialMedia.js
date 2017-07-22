@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome'
 import './global.css'
 import './SocialMedia.css'
 
-import Link from './Link'
+import SocialMediaLink from './SocialMediaLink'
 
 class SocialMedia extends Component {
     constructor () {
@@ -33,7 +33,7 @@ class SocialMedia extends Component {
             <div className="SocialMedia">
                 { Object.keys(this.state.links)
                     .map(key => 
-                        <Link
+                        <SocialMediaLink
                             name={key}
                             link={this.state.links[key]}
                         />
