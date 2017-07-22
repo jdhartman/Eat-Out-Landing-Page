@@ -1,37 +1,34 @@
 .SocialMediaLink {
-		display: inline-block;
+	display: inline-block;
+	text-align: center;
+
+	margin: 0px;
+	padding: 0px;
 }
 
 .SocialMediaLink a:hover {
-		color: rgb(50,50,50)
+	color: rgb(50,50,50)
 }
 
 @media screen 
   	and (min-device-width: 1200px)  
   	and (-webkit-min-device-pixel-ratio: 1) {
 
-		.SocialMediaLink {
-			padding-left: 0.25%;
-			padding-right: 0.25%;
-		}
-
-		.SocialMediaLink a {
-			width: 3.5vw;
-		}
+	.SocialMediaLink {
+		width: 3%;
+	}
 }
 
 @media screen 
-		and (max-device-width: 1200px)  
-		and (-webkit-min-device-pixel-ratio: 2) {
+	and (max-device-width: 1200px)  
+	and (-webkit-min-device-pixel-ratio: 2) {
 
-		.SocialMediaLink {
-			padding-left: 0.25%;
-			padding-right: 0.25%;
+	.SocialMediaLink {
+		width: 15%;
 
-			text-decoration: none;
-		}
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 
-		.SocialMediaLink a {
-			width: 9.5vw;
-		}
+		text-decoration: none;
+	}
 }

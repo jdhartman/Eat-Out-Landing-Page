@@ -34,6 +34,7 @@ class SocialMedia extends Component {
                 { Object.keys(this.state.links)
                     .map(key => 
                         <SocialMediaLink
+                            key={key}
                             name={key}
                             link={this.state.links[key]}
                         />
