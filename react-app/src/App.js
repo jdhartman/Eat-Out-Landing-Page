@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import Header from './Header/Header'
-import EatOut from './EatOut/EatOut'
+import Header   from './Header/Header'
+import EatOut   from './EatOut/EatOut'
 import Founders from './Founders/Founders'
+import Footer   from './Footer/Footer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
         <EatOut />
 
         <Founders />
+        
+        <Footer />
       </div>
     );
   }
