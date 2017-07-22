@@ -43,10 +43,3 @@
 	font-family: AvenirNext;
 	color: white;
 }
-
-#eo-motto {
-	color: white;
-    text-align: center;
-    animation: motto-slide 1.75s;
-	-webkit-animation: motto-slide 1.75s;
-}

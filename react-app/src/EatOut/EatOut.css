@@ -1,6 +1,6 @@
 @media screen 
-  and (min-device-width: 1200px)  
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  	and (min-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 1) { 
 
 	#eo-plate {
 		text-align: left;
@@ -22,17 +22,11 @@
 	#eo-logo img {
 		margin-right: 7%;
 	}
-
-	#eo-motto {
-		width: 35%;
-		margin-left: 57%;
-		font-size: 4vw;
-	}
 }
 
 @media screen 
-  and (max-device-width: 1200px)  
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  	and (max-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 2) { 
 
 	#eo-plate {
 		padding-top: 56%;
@@ -50,11 +44,5 @@
 	#eo-content {
 		margin-top: -134%;
 		text-align: center;
-	}
-
-	#eo-motto {
-		width: 55%;
-		margin-left: 22%;
-		font-size: 6vw;
 	}
 }
