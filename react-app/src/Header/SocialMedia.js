@@ -14,15 +14,15 @@ class SocialMedia extends Component {
             links: {
                 facebook: {
                     url: "https://www.facebook.com/Trofi-LLC-308796409540099/",
-                    font: <FontAwesome name='facebook-square' size="4x" />
+                    font: <FontAwesome name='facebook-square' size="3x" />
                 },
                 twitter: {
                     url: "https://twitter.com/trofiLLC",
-                    font: <FontAwesome name='twitter-square' size="4x" />
+                    font: <FontAwesome name='twitter-square' size="3x" />
                 },
                 instagram: {
                     url: "https://www.instagram.com/trofi_llc/",
-                    font: <FontAwesome name='instagram' size="4x" />
+                    font: <FontAwesome name='instagram' size="3x" />
                 }
             }
         }
@@ -30,7 +30,7 @@ class SocialMedia extends Component {
 
     render () {
         return (
-            <ul className="SocialMedia">
+            <div className="SocialMedia">
                 { Object.keys(this.state.links)
                     .map(key => 
                         <Link
@@ -39,7 +39,7 @@ class SocialMedia extends Component {
                         />
                     )
                 }
-            </ul>
+            </div>
         )
     }
 }
