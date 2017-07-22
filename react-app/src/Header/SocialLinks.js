@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './global.css'
+
 import Link from './Link'
 
 class SocialLinks extends Component {

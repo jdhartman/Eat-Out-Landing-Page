@@ -4,6 +4,8 @@ import FacebookLogo from '../res/images/FB-Logo.png'
 import TwitterLogo from '../res/images/Twitter-Logo.png'
 import InstagramLogo from '../res/images/IG-Logo.png'
 
+import './global.css'
+
 const Link = ({name, link}) => {
     const getLogo = (name) => {
         switch (name) {

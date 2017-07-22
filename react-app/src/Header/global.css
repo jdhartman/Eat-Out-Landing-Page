@@ -1,0 +1,24 @@
+div {
+    width: 100%;
+}
+
+#title-logo {
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo-div {
+    text-align: center;
+}
+
+#social {
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+    
+li {
+    display: inline-block;
+}
