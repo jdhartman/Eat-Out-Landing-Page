@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import './global.css'
+import './MediaLinks.css'
 
 import Link from './Link'
 

@@ -1,0 +1,65 @@
+li {
+    display: inline-block;
+}
+
+@media screen 
+  and (min-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+	#twitter{
+		padding: 15%;
+	}
+
+	#instagram {
+		padding: 15%;
+	}
+
+	#facebook {
+		padding: 15%;
+	}
+
+	#twitter img {
+		width: 3.5vw;
+	}
+
+	#instagram img  {
+		width: 3.5vw;
+	}
+
+	#facebook img  {
+		width: 3.5vw;
+	}
+}
+
+@media screen 
+  and (max-device-width: 1200px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	li {
+		text-decoration: none;
+	}
+
+	#twitter{
+		padding: 5.5%;
+	}
+
+	#instagram {
+		padding: 5.5%;
+	}
+
+	#facebook {
+		padding: 5.5%;
+	}
+
+	#twitter img {
+		width: 9.5vw;
+	}
+
+	#instagram img  {
+		width: 9.5vw;
+	}
+
+	#facebook img  {
+		width: 9.5vw;
+	}
+}

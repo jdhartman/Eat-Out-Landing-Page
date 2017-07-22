@@ -5,6 +5,7 @@ import TwitterLogo from '../res/images/Twitter-Logo.png'
 import InstagramLogo from '../res/images/IG-Logo.png'
 
 import './global.css'
+import './Link.css'
 
 const Link = ({name, link}) => {
     const getLogo = (name) => {
@@ -24,14 +25,17 @@ const Link = ({name, link}) => {
     }
 
     return (
-        <li>
+        <li className="Link">
             <a
                 href={link.url}
                 id={name}
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src={getLogo(name)} alt={name + " logo"} />
+                <img
+                    src={getLogo(name)}
+                    alt={name + " logo"}
+                />
             </a>
         </li>
     )
