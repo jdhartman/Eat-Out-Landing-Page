@@ -11,16 +11,6 @@
     width: 100%;
 }
 
-#eo-plate {
-	position: relative;
-	margin-top: 1.5%;
-	min-height: 50%;
-}
-
-#eo-plate img {
-    width: 60%;
-}
-
 #eo-ios {
 	position: relative;
 	height: 70%;

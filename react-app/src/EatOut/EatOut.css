@@ -1,22 +1,12 @@
 @media screen 
   	and (min-device-width: 1200px)  
-  	and (-webkit-min-device-pixel-ratio: 1) { 
-
-	#eo-plate {
-		text-align: left;
-	  	width: 80%;
-	}
+  	and (-webkit-min-device-pixel-ratio: 1) {
 
 	#eo-ios {
 		margin-top: -46%;
 		margin-left: 11.5%;
 		text-align: left;
 		width: 70%;
-	}
-
-	#eo-content {
-		margin-top: -35%;
-		text-align: right;
 	}
 
 	#eo-logo img {
@@ -26,23 +16,11 @@
 
 @media screen 
   	and (max-device-width: 1200px)  
-  	and (-webkit-min-device-pixel-ratio: 2) { 
-
-	#eo-plate {
-		padding-top: 56%;
-		text-align: center;
-	  	width: 100%;
-	  	bottom: 0px;
-	}
+  	and (-webkit-min-device-pixel-ratio: 2) {
 
 	#eo-ios {
 		margin-top: -62%;
 		text-align: center;
 		width: 100%;
-	}
-
-	#eo-content {
-		margin-top: -134%;
-		text-align: center;
 	}
 }
