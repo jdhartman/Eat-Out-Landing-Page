@@ -3,14 +3,14 @@ import React from 'react'
 import Resource from '../res/images/iOS-mockup.png'
 
 import './global.css'
-import './iOSMockup.css'
+import './IOSMockup.css'
 
-const iOSMockup = () => {
+const IOSMockup = () => {
     return (
-        <div className="iOSMockup"> 
+        <div className="IOSMockup"> 
             <img src={Resource} alt="ios mockup" />
         </div>
     )
 }
 
-export default iOSMockup
+export default IOSMockup
