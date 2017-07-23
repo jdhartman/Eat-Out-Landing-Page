@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './global.css'
+import './Motto.css'
 
 const Motto = () => {
     return (
