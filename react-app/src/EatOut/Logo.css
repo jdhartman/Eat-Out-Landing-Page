@@ -1,0 +1,17 @@
+.Logo {
+    max-height: 50%;
+}
+
+.Logo img {
+    max-height: 35%;
+    max-width: 35%;
+}
+
+@media screen 
+  	and (min-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 1) {
+
+	.Logo img {
+		margin-right: 7%;
+	}
+}
