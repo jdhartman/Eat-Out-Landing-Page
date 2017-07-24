@@ -3,6 +3,8 @@
     text-align: center;
     animation: motto-slide 1.75s;
 	-webkit-animation: motto-slide 1.75s;
+
+	margin-bottom: 1%;
 }
 
 @media screen 
