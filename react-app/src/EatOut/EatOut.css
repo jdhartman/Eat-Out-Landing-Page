@@ -1,3 +1,8 @@
+.EatOut {
+    padding: 0%;
+    margin: 0%;
+}
+
 .EatOut a:hover {
     text-decoration: none;
 }
@@ -6,6 +11,5 @@
     background-color: rgba(35, 36, 35, 1.0);
     position: relative;
     height: auto;
-    right: 0%;
     width: 100%;
 }
