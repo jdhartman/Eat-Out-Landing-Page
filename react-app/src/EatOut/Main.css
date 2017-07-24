@@ -1,0 +1,25 @@
+.Main {
+	font-family: AvenirNext;
+	color: white;
+}
+
+@media screen 
+  	and (min-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 1) {
+
+	.Main {
+		margin-top: -40%;
+		padding-bottom: 10%;
+		text-align: right;
+	}
+}
+
+@media screen 
+  	and (max-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 2) {
+
+	.Main {
+		margin-top: -134%;
+		text-align: center;
+	}
+}

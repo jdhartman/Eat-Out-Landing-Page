@@ -1,0 +1,31 @@
+.Plate {
+	position: relative;
+	margin-top: 1.5%;
+	min-height: 50%;
+}
+
+.Plate img {
+    width: 60%;
+}
+
+@media screen 
+  	and (min-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 1) { 
+
+	.Plate {
+		text-align: left;
+	  	width: 80%;
+	}
+}
+
+@media screen 
+  	and (max-device-width: 1200px)  
+  	and (-webkit-min-device-pixel-ratio: 2) { 
+
+	.Plate {
+		padding-top: 56%;
+		text-align: center;
+	  	width: 100%;
+	  	bottom: 0px;
+	}
+}

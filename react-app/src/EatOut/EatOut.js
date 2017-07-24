@@ -4,7 +4,7 @@ import './global.css'
 import './EatOut.css'
 
 import Plate from './Plate'
-import iOSMockup from './iOSMockup'
+import IOSMockup from './IOSMockup'
 import Main from './Main'
 
 class EatOut extends Component {
@@ -16,10 +16,10 @@ class EatOut extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <div id="eo-div">
+                    <div id="innerContent">
                         <Plate />
 
-                        <iOSMockup />
+                        <IOSMockup />
 
                         <Main />
                     </div>
