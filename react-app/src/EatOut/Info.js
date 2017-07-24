@@ -6,7 +6,7 @@ import './Info.css'
 const Info = () => {
     return (
         <div className="Info">
-            A cross-platform, group-focused restaurant finder that is coming soon to iOS and Android devices.
+            A cross-platform, group-focused restaurant finder coming soon to iOS and Android devices!
         </div>
     )
 }
