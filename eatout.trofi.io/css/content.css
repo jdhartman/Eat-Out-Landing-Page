@@ -1,3 +1,12 @@
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 @media screen 
   and (min-device-width: 1200px)  
   and (-webkit-min-device-pixel-ratio: 1) { 
@@ -48,13 +57,21 @@
 		color: white;
 	}
 
+	#privacy {
+		font-size: .75vw;
+		padding-bottom: 15px;
+		margin-right: 20%;
+	}
+
+	
+
 	.button {
 	  background: #f05a5a;
 	  -webkit-border-radius: 10;
 	  -moz-border-radius: 10;
 	  border-radius: 10px;
 	  color: #ffffff;
-	  font-size: 20px;
+	  font-size: 2vw;
 	  padding: 10px 20px 10px 20px;
 	  text-decoration: none;
 	  border: solid rgba(35, 36, 35, 1.0) 2px;
@@ -124,6 +141,14 @@
 		width: 60%;
 		font-size: 4.5vw;
 		color: white;
+	}
+
+	#privacy {
+		position: absolute;
+		text-align: center;
+		margin-top: 380%;
+		width: 100%;
+		padding-bottom: 20px;
 	}
 
 	.button {
